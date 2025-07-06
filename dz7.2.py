@@ -1,5 +1,5 @@
 import string
-def correct_sentence(string1):
+def correct_sentence(string1: str) ->str:
     string1 = string1[0].upper() + string1[1:]
     if string1[-1] == ".":
         return string1
